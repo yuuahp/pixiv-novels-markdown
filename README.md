@@ -2,6 +2,11 @@
 
 📘 Download Pixiv novels as markdown
 
+## Features
+
+- Download Pixiv novels as markdown
+- Working internal links between pages
+
 ## Usage
 
 1. Download the latest release from [here](https://github.com/yuuahp/pixiv-novels-markdown/releases/latest)
