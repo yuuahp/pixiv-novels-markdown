@@ -1,0 +1,11 @@
+name: Build using Gradle
+
+on: [ pull_request, push ]
+
+jobs:
+  Build:
+    uses: JourneyHQ/Workflows/.github/workflows/gradle-build.yml@main
+    with:
+      emoji: 📘
+    secrets:
+      DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
