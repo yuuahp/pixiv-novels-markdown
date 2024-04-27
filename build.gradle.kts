@@ -15,7 +15,7 @@ dependencies {
 
     implementation("org.seleniumhq.selenium:selenium-java:4.18.1")
     implementation("org.seleniumhq.selenium:selenium-support:4.18.1")
-    implementation("com.github.ajalt.clikt:clikt:4.2.2")
+    implementation("com.github.ajalt.clikt:clikt:4.4.0")
 }
 
 tasks.test {
