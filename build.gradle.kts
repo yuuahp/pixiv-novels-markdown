@@ -14,7 +14,7 @@ dependencies {
     testImplementation(kotlin("test"))
 
     implementation("org.seleniumhq.selenium:selenium-java:4.22.0")
-    implementation("org.seleniumhq.selenium:selenium-support:4.21.0")
+    implementation("org.seleniumhq.selenium:selenium-support:4.24.0")
     implementation("com.github.ajalt.clikt:clikt:4.4.0")
 }
 
